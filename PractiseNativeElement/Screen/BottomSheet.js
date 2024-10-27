@@ -20,6 +20,11 @@ const BottomSheetComponent = () => {
     Alert.alert("Helo World")
     Alert.alert("Second Alert")
   },[])
+  
+  useEffect(()=>{
+    Alert.alert("Helo World")
+    Alert.alert("Second Alert")
+  },[])
 
 
   return (
