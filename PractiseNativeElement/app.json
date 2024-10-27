@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "PractiseNativeElement",
+    "slug": "PractiseNativeElement",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d20ecc29-767d-4a3c-bf64-19b3113cb866"
+      }
+    }
+  },
+  "name": "PractiseNativeElement"
+}

@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "PractiseNativePaper",
+    "slug": "PractiseNativePaper",
+    "version": "1.0.0",
+    "orientation": "default",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d3c4953c-ff2d-41b1-8391-41fd2a8b740b"
+      }
+    }
+  },
+  "name": "PractiseNativePaper"
+}
