@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BottomSheet, Button, ListItem } from '@rneui/themed';
-import { StyleSheet } from 'react-native';
+import { Alert, StyleSheet } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 const BottomSheetComponent = () => {
@@ -16,6 +16,9 @@ const BottomSheetComponent = () => {
     },
   ];
 
+  useEffect(()=>{
+    Alert.alert("fdskfkdskhkjfhdjs")
+  },[])
   return (
     <SafeAreaProvider>
       <Button
