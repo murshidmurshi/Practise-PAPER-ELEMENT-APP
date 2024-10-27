@@ -20,10 +20,20 @@ const BottomSheetComponent = () => {
     Alert.alert("Helo World")
     Alert.alert("Second Alert")
   },[])
+  
+  useEffect(()=>{
+    Alert.alert("Helo World")
+    Alert.alert("Second Alert")
+  },[])
 
 
   return (
     <SafeAreaProvider>
+      <Button
+        title="Open Bottom Sheet"
+        onPress={() => setIsVisible(true)}
+        buttonStyle={styles.button}
+      />
       <Button
         title="Open Bottom Sheet"
         onPress={() => setIsVisible(true)}
