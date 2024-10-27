@@ -17,8 +17,11 @@ const BottomSheetComponent = () => {
   ];
 
   useEffect(()=>{
-    Alert.alert("fdskfkdskhkjfhdjs")
+    Alert.alert("Helo World")
+    Alert.alert("Second Alert")
   },[])
+
+
   return (
     <SafeAreaProvider>
       <Button
