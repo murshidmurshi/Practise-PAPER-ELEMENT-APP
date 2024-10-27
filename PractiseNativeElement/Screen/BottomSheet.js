@@ -34,6 +34,11 @@ const BottomSheetComponent = () => {
         onPress={() => setIsVisible(true)}
         buttonStyle={styles.button}
       />
+      <Button
+        title="Open Bottom Sheet"
+        onPress={() => setIsVisible(true)}
+        buttonStyle={styles.button}
+      />
       <BottomSheet  modalProps={{}} isVisible={isVisible}>
         {list.map((l, i) => (
           <ListItem
